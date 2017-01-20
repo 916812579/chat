@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_top"></include>
+
+    <FrameLayout
+        android:id="@+id/activity_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <include
+            android:id="@+id/activity_empty_view"
+            layout="@layout/activity_empty_view"></include>
+
+        <include
+            android:id="@+id/activity_error_view"
+            layout="@layout/activity_error_view"></include>
+
+
+        <FrameLayout
+            android:id="@+id/activity_success_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"></FrameLayout>
+
+        <include
+            android:id="@+id/activity_loading_view"
+            layout="@layout/activity_loading_view"></include>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_bottom_height"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_divider_height"
+            android:background="@color/app_divider"></View>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/toolbar_padding_bottom"
+            android:paddingTop="@dimen/toolbar_padding_top">
+
+
+            <cn.bingoogolapple.badgeview.BGABadgeRadioButton
+                android:id="@+id/brb_chats"
+                style="@style/toolbar_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/chat_selector"
+                android:text="@string/chats"
+                android:tag="0"
+                app:badge_horizontalMargin="@dimen/toolbar_badge_horizontal_argin" />
+
+
+            <cn.bingoogolapple.badgeview.BGABadgeRadioButton
+                android:id="@+id/brb_contacts"
+                style="@style/toolbar_style"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/contacts_selector"
+                android:text="@string/contacts"
+                android:tag="1"
+                app:badge_horizontalMargin="@dimen/toolbar_badge_horizontal_argin" />
+
+            <cn.bingoogolapple.badgeview.BGABadgeRadioButton
+                android:id="@+id/brb_discover"
+                style="@style/toolbar_style"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/discover_selector"
+                android:text="@string/discover"
+                android:tag="2"
+                app:badge_horizontalMargin="@dimen/toolbar_badge_horizontal_argin" />
+
+            <cn.bingoogolapple.badgeview.BGABadgeRadioButton
+                android:id="@+id/brb_me"
+                style="@style/toolbar_style"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/me_selector"
+                android:text="@string/me"
+                android:tag="3"
+                app:badge_horizontalMargin="@dimen/toolbar_badge_horizontal_argin" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

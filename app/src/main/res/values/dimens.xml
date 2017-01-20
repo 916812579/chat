@@ -1,0 +1,64 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_vertical_padding">16dp</dimen>
+    <dimen name="activity_horizontal_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="activity_top_height">50dp</dimen>
+    <dimen name="activity_bottom_height">60dp</dimen>
+
+    <dimen name="activity_loading_progressbar_width">60dp</dimen>
+    <dimen name="activity_loading_progressbar_height">60dp</dimen>
+    <dimen name="activity_loading_progressbar_margin_top">-60dp</dimen>
+
+    <dimen name="button_loading_progressbar_width">30dp</dimen>
+    <dimen name="button_loading_progressbar_height">30dp</dimen>
+
+    <dimen name="edit_text_height">50dp</dimen>
+    <dimen name="edit_text_padding_left">10dp</dimen>
+    <dimen name="edit_text_padding_right">10dp</dimen>
+    <dimen name="edit_text_font_size">12sp</dimen>
+    <dimen name="edit_text_label_font_size">16sp</dimen>
+    <dimen name="edit_text_label_padding">10sp</dimen>
+
+    <dimen name="app_divider_height">1px</dimen>
+    <dimen name="button_height">50dp</dimen>
+
+    <dimen name="button_corner">5dp</dimen>
+    <dimen name="button_font_size">16dp</dimen>
+    <dimen name="border_width">1px</dimen>
+    <dimen name="toolbar_text_size">14sp</dimen>
+    <dimen name="toolbar_padding_top">6dp</dimen>
+    <dimen name="toolbar_padding_bottom">@dimen/toolbar_padding_top</dimen>
+    <dimen name="toolbar_badge_horizontal_argin">20dp</dimen>
+
+    <dimen name="list_view_image_text">50dp</dimen>
+    <dimen name="list_view_text_margin_left">16dp</dimen>
+
+    <dimen name="list_view_rich">60dp</dimen>
+    <dimen name="image_text_image_size">38dp</dimen>
+    <dimen name="rich_image_size">46dp</dimen>
+    <dimen name="rich_margin">4dp</dimen>
+
+    <dimen name="edit_text_height2">38dp</dimen>
+    <dimen name="btn_padding">5dp</dimen>
+    <dimen name="chat_more_width">38dp</dimen>
+    <dimen name="emotion_tool_bar_height">40dp</dimen>
+
+    <dimen name="chat_image_size">40dp</dimen>
+    <dimen name="chat_image_margin">8dp</dimen>
+    <dimen name="chat_min_height">40dp</dimen>
+    <dimen name="chat_content_margin_right">50dp</dimen>
+    <dimen name="chat_content_margin_left">@dimen/chat_content_margin_right</dimen>
+    <dimen name="chat_content_item_margin_top">10dp</dimen>
+    <dimen name="chat_content_item_margin_bottom">@dimen/chat_content_item_margin_top</dimen>
+    <dimen name="chat_content_padding">10dp</dimen>
+    <dimen name="voice_icon_size">20dp</dimen>
+    <dimen name="indicator_height">30dp</dimen>
+    <dimen name="more_text">12sp</dimen>
+
+
+
+</resources>

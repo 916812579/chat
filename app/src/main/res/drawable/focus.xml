@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:bottom="@dimen/border_width">
+         <shape>
+             <!-- 描边 -->
+             <stroke
+                 android:width="@dimen/border_width"
+                 android:color="@color/focus_border"
+                 android:dashGap="2dp"
+                 android:dashWidth="1dp" />
+         </shape>
+    </item>
+
+</layer-list>
